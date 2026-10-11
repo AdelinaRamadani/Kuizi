@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My First Project</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h3>Teknologjia Arsimore</h3>
+    <p>Inovacioni lidhet me cilën lëndë?</p>
+    <button id="a">Matematikën</button>
+    <button id="b">Teknologjinë</button>
+    <button id="c">Gjuhën shqipe</button>
+    <h3 id="rezultati"></h3>
+    <script>
+      document.getElementById("a").onclick = function () {
+        document.getElementById("rezultati").textContent = "Provo përsëri!";
+      };
+      document.getElementById("b").onclick = function () {
+        document.getElementById("rezultati").textContent = "Saktë, bravo!";
+      };
+      document.getElementById("c").onclick = function () {
+        document.getElementById("rezultati").textContent = "Provo përsëri!";
+      };
+    </script>
+  </body>
+</html>
